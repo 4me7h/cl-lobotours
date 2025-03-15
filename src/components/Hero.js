@@ -18,11 +18,12 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Zoom triggerOnce cascade>
-                                    <h4 className='text--lead text--dark-primary'>Effortless Business Growth</h4>
-                                    <h1 className="text--title text--dark-primary">We Generate <span className="lighted lighted--secondary">Quote-Ready</span> Home Improvement <span className="lighted lighted--secondary">Leads for You</span>
+                                    {/* <h4 className='text--lead text--dark-primary'>Effortless Business Growth</h4> */}
+                                    <h1 className="text--title text--dark-primary">Lobo <span className="lighted lighted--secondary">Tours</span>
+                                    {/* <h1 className="text--title text--dark-primary">Lobo <span className="lighted lighted--secondary">Tours</span> Home Improvement <span className="lighted lighted--secondary">Leads for You</span> */}
                                     </h1>
-                                    <h4 className="text--lead text--dark-primary mb-5">No Heavy Lifting Required!</h4>
-                                    <a className="btn btn--secondary" target="__blank" href="https://wa.me/+17025780098?text=Blueprint%20Strategies%2C%20I%27m%20interested%20in%20growing%20my%20business">Get more leads</a>
+                                    {/* <h4 className="text--lead text--dark-primary mb-5">No Heavy Lifting Required!</h4> */}
+                                    <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">Solicita tus boletos aquí</a>
                                 </Zoom>
                             </div>
                         </div>

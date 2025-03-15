@@ -6,33 +6,32 @@
     margin-bottom: 3rem;
     gap: 1rem;
     &__item {
-        background-color: $color-primary;
+        background-color: $color-white;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
         border-radius: 15px;
-        border: 1px solid $dark-accent-hover;
         overflow: hidden;
         width: 100%;
         padding: 2rem 1rem 1rem;
         text-align: center;
+        @include media('lg') {
+            flex: 1 1 22%;
+        }
         &:hover {
             transition: background-color 0.35s, transform 0.35s;
-            background-color: $color-white;
+            background-color: $color-primary;
             transform: translateY(-0.5rem);
             .boxes__icon svg {
                 transition: color 0.35s;
-                color: $color-secondary;
+                color: $color-white;
             }
             .boxes__title {
                 transition: color 0.35s;
-                color: $color-primary;
+                color: $color-white;
             }
             .boxes__content {
                 transition: color 0.35s;
-                color: $color-font;
+                color: $color-white;
             }
-        }
-        @include media('lg') {
-            flex: 1 1 30%;
         }
     }
     &__icon {
@@ -47,7 +46,7 @@
         border-radius: 15px;
     }
     &__title {
-        color: $dark-text-primary;
+        color: $color-primary;
         font-size: $fs-md;
         font-weight: $fw-5;
         margin-bottom: 1rem;

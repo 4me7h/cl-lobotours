@@ -15,8 +15,8 @@
 
     &--secondary {
         @include link {
-            color: $color-white;
-            background-color: $color-secondary;
+            color: $color-black;
+            background-color: $color-tertiary;
             text-transform: uppercase;
             letter-spacing: 0.1rem;
             font-weight: $fw-7;
@@ -25,7 +25,7 @@
         }
         @include hover {
             color: $color-white !important;
-            background-color: darken($color-secondary, 10%) !important;
+            background-color: darken($color-tertiary, 15%) !important;
         }
     }
     &--face {

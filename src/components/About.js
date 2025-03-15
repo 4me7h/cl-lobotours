@@ -4,18 +4,16 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Gridimg from './Gridimg';
 import { Fade } from 'react-awesome-reveal';
-// import { FaRocket, FaBullseye, FaChartLine } from 'react-icons/fa';
+import { FaShieldAlt, FaHandshake, FaClock, FaRoad } from "react-icons/fa";
 
-import partners01 from '../images/partners-01.png';
-import partners02 from '../images/partners-02.png';
-import partners03 from '../images/partners-03.png';
-import icon04 from '../images/icon-04.png';
-import icon05 from '../images/icon-05.png';
-import icon06 from '../images/icon-06.png';
+// import partners01 from '../images/partners-01.png';
+// import partners02 from '../images/partners-02.png';
+// import partners03 from '../images/partners-03.png';
 
 const imagePaths = [  
   require('../images/img-02.jpg'),
   require('../images/img-03.jpg'),
+  require('../images/img-04.jpg'),
 ];
 
 export default function About() {
@@ -27,9 +25,9 @@ export default function About() {
             <Fade cascade triggerOnce direction="left">
             <div className="about__header">
               <div className="about__header__content">
-                <h3 className="text--subtitle text-center text-uppercase text--dark-primary"><em>Who Are <span className="lighted lighted--secondary">We?</span></em></h3>
-                <p className='text--body text-center text--dark-secondary'>
-                  We’re a Las Vegas-based agency that helps home improvement companies secure top-tier, quote-ready leads through strategic advertising and AI-driven automation. Our targeted approach not only frees you up to focus on your craft but also ensures your growth is driven by genuinely interested clients—making your business expansion smooth and efficient.
+                <h2 className="text--subtitle text-center text-uppercase text--primary">Conoce más sobre Lobo Tours</h2>
+                <p className='text--body text-center'>
+                  En Lobo Tours, llevamos más de [X años] conectando destinos y personas con seguridad, confianza y eficiencia. Somos tu mejor opción para viajes terrestres en México, ofreciendo un servicio personalizado y comprometido con tu bienestar.
                 </p>
               </div>
             </div>
@@ -37,18 +35,17 @@ export default function About() {
           </Col>
         </Row>
       </Container>
-    
       <Gridimg 
           imagePaths = {imagePaths}
       />
-      <Container>
+      {/* <Container>
         <Row>
           <Col>
             <Fade cascade triggerOnce direction="right">
               <div className="about__content">
                 <ul className='about__partners'>
                   <li className='about__partners__item'>
-                    <h4 className="text--subtitle text-center text-uppercase text--dark-secondary"><em>Our<br />Partners</em></h4>
+                    <h4 className="text--subtitle text-center text-uppercase text--dark-secondary"><em>Nuestras<br />Marcas</em></h4>
                   </li>
                   <li className='about__partners__item'>
                     <img src={partners01} alt="MetaAds"/>
@@ -64,46 +61,49 @@ export default function About() {
             </Fade>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
       <Container>
         <Row>
           <Col>
               <Fade triggerOnce>
                 <div className='headercontent__content'>
-                  <h3 className="text--subtitle text-center text-uppercase text--dark-primary"><em>What Makes Us <span className="lighted lighted--secondary">Different</span></em></h3>
+                  <h3 className="text--subtitle text-center text--primary">Nuestros Valores</h3>
                 </div>
                 <div className="about__content">
                   <ul className="boxes">
                     <li className="boxes__item">
                       <div className="boxes__icon">
-                        {/* <FaRocket size={75}/> */}
-                        <img src={icon04} alt="icon-blueprint" className="boxes__img"/>
+                        <FaShieldAlt size={75}/>
                       </div>
-                      <h4 className="text--lead boxes__title">AI-Driven Precision</h4>
-                      <p className='text--body boxes__content'>Our automated processes deliver faster, more accurate results by engaging and qualifying leads instantly.</p>
+                      <h4 className="text--lead boxes__title">Seguridad:</h4>
+                      <p className='text--body boxes__content'>Tu bienestar es nuestra prioridad.</p>
                     </li>
                     <li className="boxes__item">
                       <div className="boxes__icon">
-                        {/* <FaBullseye size={75}/> */}
-                        <img src={icon05} alt="icon-blueprint" className="boxes__img"/>
+                        <FaHandshake size={75}/>
                       </div>
-                      <h4 className="text--lead boxes__title">Custom Solutions</h4>
-                      <p className='text--body boxes__content'>Every campaign is tailored to your specific business goals, ensuring you only speak with quote-ready prospects.</p>
+                      <h4 className="text--lead boxes__title">Confianza:</h4>
+                      <p className='text--body boxes__content'>Miles de clientes nos respaldan.</p>
                     </li>
                     <li className="boxes__item">
                       <div className="boxes__icon">
-                        {/* <FaChartLine size={75}/> */}
-                        <img src={icon06} alt="icon-blueprint" className="boxes__img"/>
+                        <FaClock size={75}/>
                       </div>
-                      <h4 className="text--lead boxes__title">Measurable Success</h4>
-                      <p className='text--body boxes__content'>Our transparent reporting tools track your ROI and provide clear insights into your lead pipeline.</p>
+                      <h4 className="text--lead boxes__title">Eficiencia:</h4>
+                      <p className='text--body boxes__content'>Llegamos a tiempo, siempre.</p>
+                    </li>
+                    <li className="boxes__item">
+                      <div className="boxes__icon">
+                        <FaRoad size={75}/>
+                      </div>
+                      <h4 className="text--lead boxes__title">Compromiso:</h4>
+                      <p className='text--body boxes__content'>Contigo, desde el inicio hasta el final del viaje.</p>
                     </li>
                   </ul>
                 </div>
                 <div className="about__content text-center">
-                  <a className="btn btn--secondary" target="__blank" href="mailto:blueprintstrategiesagency@gmail.com">Learn More</a>
+                  <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">Reserva Aquí</a>
                 </div>
-                
               </Fade>
           </Col>
         </Row>

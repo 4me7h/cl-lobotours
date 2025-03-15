@@ -18,9 +18,10 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Zoom triggerOnce cascade>
-                                    <h1 className="text--title text--dark-primary">Viaja con seguridad y confianza en <span className="lighted lighted--secondary">Lobo Tours </span>
+                                    <h4 className="text--lead text-white">Tu mejor opción para viajes seguros, cómodos y puntuales</h4>
+                                    <h1 className="text--title text-white">Viaja con seguridad y confianza en <em>Lobo Tours</em>
                                     </h1>
-                                    <h4 className="text--lead text--dark-primary mb-5">Tu mejor opción para viajes seguros, cómodos y puntuales desde Tuxtla Gutiérrez, Chiapas.</h4>
+                                    <h4 className="text--lead text-white mb-5">Desde Tuxtla Gutiérrez, Chiapas.</h4>
                                     <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">Solicita tus boletos aquí</a>
                                 </Zoom>
                             </div>

@@ -66,8 +66,10 @@ export default function About() {
         <Row>
           <Col>
               <Fade triggerOnce>
-                <div className='headercontent__content'>
-                  <h3 className="text--subtitle text-center text--primary">Nuestros Valores</h3>
+                <div className='headercontent'>
+                  <div className="headercontent__content">
+                    <h3 className="text--subtitle text-center text--primary">Nuestros Valores</h3>
+                  </div>
                 </div>
                 <div className="about__content">
                   <ul className="boxes">

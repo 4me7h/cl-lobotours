@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Table from 'react-bootstrap/Table';
 
 import { Fade } from 'react-awesome-reveal';
 
@@ -12,46 +13,94 @@ const Schedules = () => {
                 <Row>
                     <Col>
                         <div className="schedules__container">
-                            <div className="headercontent__container">
-                                <div className="schedules__header">
-                                    <Fade cascade triggerOnce direction="up">
-                                        <div className="schedules__header__content">
-                                            <h3 className="text--subtitle">Horarios</h3>
-                                            <hr className="hr--basic"/>
-                                        </div>
-                                        <div className="schedules__content">
-                                            <p className="text--lead text-uppercase">
-                                                Viaja seguro, cómodo y puntual.
-                                            </p>
-                                        </div>
-                                        <div className="schedules__content">
-                                            <p className="text--small">
-                                                Nuestro compromiso es
-                                                brindarte un servicio de calidad, por eso
-                                                te presentamos nuestros horarios de salida.
-                                            </p>
-                                        </div>
-                                    </Fade>
+                            <Fade cascade triggerOnce direction="up">
+                                <div className="headercontent">
+                                    <div className="headercontent__content">
+                                        <h2 className="text--subtitle text-center text-uppercase text--primary">Horarios y Precios</h2>
+                                        <p className='text--body text-center'>
+                                        En Lobo Tours, te llevamos a donde necesites con horarios flexibles y precios accesibles.<br />¡Viaja sin preocupaciones!
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <Fade cascade triggerOnce direction="down">
-                                <ul className="schedules__list">
-                                    <li className="schedules__list__item">
-                                        <div className="schedules__card">
-                                            <h4 className="text--lead">Tuxtla Gutiérrez - San Cristóbal de las Casas</h4>
-                                            <p className="text--body">Salida: 7:00 am</p>
-                                            <p className="text--body">Llegada: 8:30 am</p>
-                                        </div>
-                                    </li>
-                                    <li className="schedules__list__item">
-                                        <div className="schedules__card">
-                                            <h4 className="text--lead">San Cristóbal de las Casas - Tuxtla Gutiérrez</h4>
-                                            <p className="text--body">Salida: 5:00 pm</p>
-                                            <p className="text--body">Llegada: 6:30 pm</p>
-                                        </div>
-                                    </li>
-                                </ul>
                             </Fade>
+                            <span className='text--small'>Lista de horarios y precios</span>
+                            <Table striped bordered hover responsive>
+                                <thead>
+                                    <tr>
+                                        <th>Destino</th>
+                                        <th>Lunes</th>
+                                        <th>Martes</th>
+                                        <th>Miércoles</th>
+                                        <th>Jueves</th>
+                                        <th>Viernes</th>
+                                        <th>Sábado</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Puerto Vallarta, Jalisco</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><span>6:00 am</span></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><span>6:00 am</span></td>
+                                        <td><span>$1,600</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Guadalajara, Jalisco</td>
+                                        <td><span>8:00 am</span></td>
+                                        <td></td>
+                                        <td><span>8:00 am</span></td>
+                                        <td></td>
+                                        <td><span>8:00 am</span></td>
+                                        <td><span>8:00 am</span></td>
+                                        <td><span>$1,600</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ciudad Juárez, Chihuahua</td>
+                                        <td></td>
+                                        <td><span>8:00 am</span></td>
+                                        <td></td>
+                                        <td><span>8:00 am</span></td>
+                                        <td></td>
+                                        <td><span>8:00 am</span></td>
+                                        <td><span>$2,500</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Monterrey, Nuevo León</td>
+                                        <td><span>9:00 am</span></td>
+                                        <td><span>9:00 am</span></td>
+                                        <td><span>9:00 am</span></td>
+                                        <td><span>9:00 am</span></td>
+                                        <td><span>9:00 am</span></td>
+                                        <td><span>9:00 am</span></td>
+                                        <td><span>$1,600</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cancún, Quintana Roo</td>
+                                        <td><span>12:00 pm</span></td>
+                                        <td></td>
+                                        <td><span>12:00 pm</span></td>
+                                        <td></td>
+                                        <td><span>12:00 pm</span></td>
+                                        <td><span>12:00 pm</span></td>
+                                        <td><span>$1,000</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tijuana, Baja California</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><span>3:00 pm</span></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><span>3:00 pm</span></td>
+                                        <td><span>$2,500</span></td>
+                                    </tr>
+                                </tbody>
+                                <span className='text--small'>*Los precios y horarios pueden estar sujetos a cambios</span>
+                            </Table>
                         </div>
                     </Col>
                 </Row>

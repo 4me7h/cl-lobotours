@@ -9,10 +9,13 @@ import { useState, useEffect } from 'react';
 import imgBackground01 from '../images/img-destino-01.jpg';
 import imgBackground02 from '../images/img-destino-02.jpg';
 import imgBackground03 from '../images/img-destino-03.jpg';
+import imgBackground04 from '../images/img-destino-04.jpg';
+import imgBackground05 from '../images/img-destino-05.jpg';
 
 const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
-    const backgrounds = [imgBackground01, imgBackground02, imgBackground03];
+    const backgrounds = [imgBackground01, imgBackground02, imgBackground03, imgBackground04, imgBackground05];
+    // Cambia la imagen de fondo cada 5 segundos
 
     useEffect(() => {
         const interval = setInterval(() => {

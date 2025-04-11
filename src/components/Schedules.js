@@ -104,33 +104,68 @@ const Schedules = () => {
 
 <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>¿Qué destinos cubren?</Accordion.Header>
+        <Accordion.Header>Puerto Vallarta, Jalisco</Accordion.Header>
         <Accordion.Body>
-          Cubrimos destinos como Tijuana, Cancún, Monterrey, Ciudad Juárez, Puerto Vallarta y Guadalajara. Consulta nuestros horarios y precios para más detalles.
+            Miércoles - 6:00 am<br />
+            Sábado - 6:00 am<br />
+            Precio: $1,600
         </Accordion.Body>
       </Accordion.Item>
 
       <Accordion.Item eventKey="1">
-        <Accordion.Header>¿Qué incluye el precio del boleto?</Accordion.Header>
+        <Accordion.Header>Guadalajara, Jalisco</Accordion.Header>
         <Accordion.Body>
-          El precio del boleto incluye el transporte seguro y cómodo, seguro de viajero y asistencia durante todo el viaje.
+            Lunes - 8:00 am<br />
+            Miércoles - 8:00 am<br />
+            Sábado - 8:00 am<br />
+            Precio: $1,600
         </Accordion.Body>
       </Accordion.Item>
 
       <Accordion.Item eventKey="2">
-        <Accordion.Header>¿Cómo puedo reservar mi viaje?</Accordion.Header>
+        <Accordion.Header>Ciudad Juárez, Chihuahua</Accordion.Header>
         <Accordion.Body>
-          Puedes reservar tu viaje directamente en nuestra terminal o contactándonos a través de nuestro número telefónico o correo electrónico.
+            Martes - 8:00 am<br />
+            Jueves - 8:00 am<br />
+            Sábado - 8:00 am<br />
+            Precio: $2,500
         </Accordion.Body>
       </Accordion.Item>
 
       <Accordion.Item eventKey="3">
-        <Accordion.Header>¿Ofrecen descuentos?</Accordion.Header>
+        <Accordion.Header>Monterrey, Nuevo León</Accordion.Header>
         <Accordion.Body>
-          Sí, ofrecemos descuentos para estudiantes, adultos mayores y grupos. Contáctanos para más información.
+            Lunes - 9:00 am<br />
+            Martes - 9:00 am<br />
+            Miércoles - 9:00 am<br />
+            Jueves - 9:00 am<br />
+            Viernes - 9:00 am<br />
+            Sábado - 9:00 am<br />
+            Precio: $1,600
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="4">
+        <Accordion.Header>Cancún, Quintana Roo</Accordion.Header>
+        <Accordion.Body>
+            Lunes - 12:00 pm<br />
+            Miércoles - 12:00 pm<br />
+            Viernes - 12:00 pm<br />
+            Sábado - 12:00 pm<br />
+            Precio: $1,000
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="5">
+        <Accordion.Header>Tijuana, Baja California</Accordion.Header>
+        <Accordion.Body>
+            Miércoles - 3:00 pm<br />
+            Sábado - 3:00 pm<br />
+            Precio: $2,500
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    <p className='text--small'>*Los precios y horarios pueden estar sujetos a cambios</p>
                         </div>
                     </Col>
                 </Row>

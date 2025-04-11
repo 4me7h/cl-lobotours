@@ -2,15 +2,32 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import imgBackground from '../images/img-01.jpg';
 import { Zoom } from 'react-awesome-reveal';
 import { useParallax } from 'react-scroll-parallax';
+import { useState, useEffect } from 'react';
+
+import imgBackground01 from '../images/img-destino-01.jpg';
+import imgBackground02 from '../images/img-destino-02.jpg';
+import imgBackground03 from '../images/img-destino-03.jpg';
 
 const Hero = () => {
-    const backgroundImage = `url(${imgBackground})`;
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const backgrounds = [imgBackground01, imgBackground02, imgBackground03];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentSlide((prevSlide) => (prevSlide + 1) % backgrounds.length);
+        }, 5000); // Cambia la imagen cada 5 segundos
+
+        return () => clearInterval(interval); // Limpia el intervalo al desmontar el componente
+    }
+    , [backgrounds.length]);
+
+    const backgroundImage = `url(${backgrounds[currentSlide]})`;
+
     const { ref } = useParallax({ speed: 10 });
     return (
-        <section className="hero--img" style={{backgroundImage: `${backgroundImage}`}}>
+        <section className="hero--img" style={{backgroundImage}}>
             <div className="hero__overlay hero__overlay--black"></div>
             <Container>
                 <Row>
@@ -23,6 +40,17 @@ const Hero = () => {
                                     </h1>
                                     <h4 className="text--lead text-white mb-5">Desde Tuxtla Gutiérrez, Chiapas.</h4>
                                     <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">Solicita tus boletos aquí</a>
+
+                                    <div className="slider-controls">
+                                    {backgrounds.map((_, index) => (
+                                        <button 
+                                            key={index}
+                                            className={`slider-dot ${index === currentSlide ? 'active' : ''}`}
+                                            onClick={() => setCurrentSlide(index)}
+                                            aria-label={`Ir a slide ${index + 1}`}
+                                        />
+                                    ))}
+            </div>
                                 </Zoom>
                             </div>
                         </div>

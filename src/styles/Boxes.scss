@@ -6,7 +6,7 @@
     margin-bottom: 3rem;
     gap: 1rem;
     &__item {
-        background-color: $color-clear-blue-lobo;
+        background-color: $color-primary;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
         border-radius: 15px;
         border: 1px solid $color-white;
@@ -19,19 +19,19 @@
         }
         &:hover {
             transition: background-color 0.35s, transform 0.35s;
-            background-color: $color-primary;
+            background-color: $color-white;
             transform: translateY(-0.5rem);
             .boxes__icon svg {
                 transition: color 0.35s;
-                color: $color-white;
+                color: $color-primary;
             }
             .boxes__title {
                 transition: color 0.35s;
-                color: $color-white;
+                color: $color-primary;
             }
             .boxes__content {
                 transition: color 0.35s;
-                color: $color-white;
+                color: $color-primary;
             }
         }
     }

@@ -11,15 +11,12 @@ import { FaShieldAlt, FaHandshake, FaClock, FaRoad } from "react-icons/fa";
 // import partners03 from '../images/partners-03.png';
 
 const imagePaths = [  
-  require('../images/img-02.jpg'),
-  require('../images/img-03.jpg'),
-  require('../images/img-04.jpg'),
   require('../images/img-05.jpg'),
-  require('../images/img-06.jpg'),
-  require('../images/img-07.jpg'),
-  require('../images/img-13.jpg'),
   require('../images/img-14.jpg'),
-  require('../images/img-15.jpg'),
+  require('../images/img-02.jpg'),
+  require('../images/img-06.jpg'),
+  require('../images/img-12.jpg'),
+  require('../images/img-13.jpg'),
 ];
 
 export default function About() {
@@ -31,8 +28,8 @@ export default function About() {
             <Fade cascade triggerOnce direction="left">
             <div className="about__header">
               <div className="about__header__content">
-                <h2 className="text--subtitle text-center text-uppercase text--primary">Conoce más sobre Lobo Tours</h2>
-                <p className='text--body text-center'>
+                <h2 className="text--subtitle text-center text-uppercase text--white">Conoce más sobre Lobo Tours</h2>
+                <p className='text--body text-center text-white'>
                   En Lobo Tours, llevamos más de [X años] conectando destinos y personas con seguridad, confianza y eficiencia. Somos tu mejor opción para viajes terrestres en México, ofreciendo un servicio personalizado y comprometido con tu bienestar.
                 </p>
               </div>
@@ -74,7 +71,7 @@ export default function About() {
               <Fade triggerOnce>
                 <div className='headercontent'>
                   <div className="headercontent__content">
-                    <h3 className="text--subtitle text-center text--primary">Nuestros Valores</h3>
+                    <h3 className="text--subtitle text-center text--white">Nuestros Valores</h3>
                   </div>
                 </div>
                 <div className="about__content">

@@ -6,9 +6,10 @@
     margin-bottom: 3rem;
     gap: 1rem;
     &__item {
-        background-color: $color-white;
+        background-color: $color-clear-blue-lobo;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
         border-radius: 15px;
+        border: 1px solid $color-white;
         overflow: hidden;
         width: 100%;
         padding: 2rem 1rem 1rem;
@@ -37,7 +38,7 @@
     &__icon {
         margin-bottom: 2rem;
         svg {
-            color: $color-secondary;       
+            color: $color-white;       
         }
     }
     &__img {
@@ -46,7 +47,7 @@
         border-radius: 15px;
     }
     &__title {
-        color: $color-primary;
+        color: $color-white;
         font-size: $fs-md;
         font-weight: $fw-5;
         margin-bottom: 1rem;
@@ -55,6 +56,6 @@
         }
     }
     &__content {
-        color: $dark-disabled;
+        color: $dark-text-secondary;
     }
 }

@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Fade } from 'react-awesome-reveal';
 
-import iconMail from '../images/icon-mail.png';
+// import iconMail from '../images/icon-mail.png';
 import iconWhats from '../images/icon-whats.png';
 
 const Contact = () => {
@@ -16,21 +16,22 @@ const Contact = () => {
                         <div className="headercontent__container">
                             <div className="headercontent__header">
                                 <Fade cascade triggerOnce direction="up"> 
-                                <div className='headercontent__header__content'>
-                                    <h3 className="text--subtitle text--dark-primary">Get 5 New <span className="lighted lighted--secondary">Quote-Ready Leads</span></h3>
-                                </div>  
-                                <div className="headercontent__content">
-                                    <p className="text--lead text--dark-secondary">
-                                        Within 30 Days, or You Don’t Pay
-                                    </p>    
+                                <div className="about__header">
+                                    <div className="about__header__content">
+                                        <h2 className="text--subtitle text-center text-uppercase text--white">Contáctanos</h2>
+                                        <p className='text--body text-center text-white'>
+                                        Horario de atención: Lunes a Domingo, 8:00 am - 8:00 pm<br />
+¡Escríbenos por WhatsApp para respuestas rápidas, cotizaciones o reservas!
+                                        </p>
+                                    </div>
                                 </div>
                                 <ul className="contact__buttons">
-                                    <li className='contact__buttons__item'>
+                                    {/* <li className='contact__buttons__item'>
                                         <a className="contact__buttons__btn" target="__blank" href="mailto:blueprintstrategiesagency@gmail.com">
                                             <img src={iconMail} alt="e-mail" className="contact__buttons__icon"/>
-                                        </a></li>
+                                        </a></li> */}
                                     <li className="contact__buttons__item">
-                                        <a className="contact__buttons__btn" target="__blank" href="https://wa.me/+17025780098?text=Blueprint%20Strategies%2C%20I%27m%20interested%20in%20growing%20my%20business">
+                                        <a className="contact__buttons__btn" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">
                                             <img src={iconWhats} alt="whatsapp" className="contact__buttons__icon"/>
                                         </a>
                                     </li>

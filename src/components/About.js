@@ -30,7 +30,7 @@ export default function About() {
               <div className="about__header__content">
                 <h2 className="text--subtitle text-center text-uppercase text--white">Conoce más sobre Lobo Tours</h2>
                 <p className='text--body text-center text-white'>
-                  En Lobo Tours, llevamos más de [X años] conectando destinos y personas con seguridad, confianza y eficiencia. Somos tu mejor opción para viajes terrestres en México, ofreciendo un servicio personalizado y comprometido con tu bienestar.
+                  En Lobo Tours, llevamos más de 28 años conectando destinos y personas con seguridad, confianza y eficiencia. Somos tu mejor opción para viajes terrestres en México, ofreciendo un servicio personalizado y comprometido con tu bienestar.
                 </p>
               </div>
             </div>

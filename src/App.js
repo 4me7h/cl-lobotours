@@ -3,9 +3,10 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Schedules from './components/Schedules';
 import Header from './components/Header';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 // import Services from './components/Services';
-// import Contact from './components/Contact';
+
 // import { Element } from 'react-scroll';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
@@ -17,9 +18,9 @@ function App() {
       <Hero />
       <About />
       <Schedules />
-      {/* <Services />
+      {/* <Services />*/}
       <Contact />
-      <Footer /> */}
+      <Footer />
     </>
     </ParallaxProvider>
   );

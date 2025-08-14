@@ -19,9 +19,15 @@ const Contact = () => {
                                 <div className="about__header">
                                     <div className="about__header__content mb-5">
                                         <h2 className="text--subtitle text-center text-uppercase text--white">Contáctanos</h2>
-                                        <p className='text--body text-center text-white'>
+                                        <p className='text--body text-center text-white mb-5'>
                                         Horario de atención: Lunes a Domingo, 8:00 am - 8:00 pm<br />
 ¡Escríbenos por WhatsApp para respuestas rápidas, cotizaciones o reservas!
+                                        </p>
+                                        <p className="text--lead text--tertiary">Nuestras cuentas de banco para facilitar tus pagos</p>
+                                        <p className='text--body text-center text-white'>
+                                            Bancomer 4152 3143 9348  2883< br/>
+                                            Spin Oxxo 4217 4700 1979 9259< br/>
+                                            Banco Azteca 1397 1359 7187 10 
                                         </p>
                                     </div>
                                     <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">Reserva Aquí</a>

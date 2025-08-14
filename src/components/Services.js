@@ -3,9 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import icon01 from '../images/icon-01.png';
-import icon02 from '../images/icon-02.png';
-import icon03 from '../images/icon-03.png';
+import img01 from '../images/img-tour-01.jpg';
+import img02 from '../images/img-tour-02.jpg';
+import img03 from '../images/img-tour-03.jpg';
+import img04 from '../images/img-tour-04.jpg';
+import img05 from '../images/img-tour-05.jpg';
+import img06 from '../images/img-tour-06.jpg';
+
 
 import { Fade } from 'react-awesome-reveal';
 
@@ -25,55 +29,75 @@ export default function Services() {
             <div className="services__container">
               <div className="services__content">
                 <Fade cascade direction='right' triggerOnce>
-                  <div className='headercontent__content'>
-                    <h3 className="text--subtitle text-center text-uppercase text-white"><em>Our <span className="lighted lighted--secondary">Services</span></em></h3>
-                  </div>
-                  <ul className="boxes mb-5 pb-5">
-                    <li className="boxes__item">
-                      <h4 className="text--lead boxes__title">Lead Generation with AI:</h4>
-                      <p className='text--body boxes__content'>Drive a steady stream of high-quality leads using advanced AI technology and strategic ad campaigns.</p>
+                  <div className="headercontent">
+                      <div className="headercontent__content">
+                          <h2 className="text--subtitle text-center text-uppercase text--white">Nuestros Tours</h2>
+                          <p className='text--body text-white'>
+                            Visita los destinos más emblemáticos de Chiapas con nuestros tours personalizados. Desde el majestuoso Cañón del Sumidero hasta las impresionantes cascadas de Agua Azul. Explora la belleza natural y cultural de Chiapas con nosotros.
+                          </p>  
+                          <p className="text--lead text--tertiary">Todos nuestros tours incluyen entrada a parques ecoturísticos y seguro de viajero</p>
+                          
+                      </div>
+                  </div>            
+                  <ul className="boxes boxes--tour mb-5 pb-5">
+                    <li className="boxes__item boxes__item--tour">
+                      <img src={img01} alt="cañon-del-sumidero" className="boxes__img"/>
+                      <h3 className="text--lead boxes__title--tour">Tour 1</h3>
+                      <h4 className="text--lead boxes__subtitle">Cañón del Sumidero</h4>
+                      <p className='text--body boxes__content'>
+                        Recorrido en lancha<br/>
+                        Pueblo Mágico de Chiapa de Corzo<br/>
+                        Miradores
+                      </p>
                     </li>
-                    <li className="boxes__item">
-                      <h4 className="text--lead boxes__title">Quote-Ready Leads:</h4>
-                      <p className='text--body boxes__content'>Our AI system qualifies leads and ensures they are ready to take action, saving you time and effort.</p>
+                    <li className="boxes__item boxes__item--tour">
+                      <img src={img02} alt="cañon-del-sumidero" className="boxes__img"/>
+                      <h3 className="text--lead boxes__title--tour">Tour 2</h3>
+                      <h4 className="text--lead boxes__subtitle">San Cristóbal de las Casas</h4>
+                      <p className='text--body boxes__content'>
+                        San Juan Chamula<br/>
+                        Zinacantán
+                      </p>
                     </li>
-                    <li className="boxes__item">
-                      <h4 className="text--lead boxes__title">Done-For-You Sales Pipeline:</h4>
-                      <p className='text--body boxes__content'>We manage every step from lead generation to appointment setting, integrating everything into your CRM with GoHighLevel.</p>
+                    <li className="boxes__item boxes__item--tour">
+                      <img src={img03} alt="cañon-del-sumidero" className="boxes__img"/>
+                      <h3 className="text--lead boxes__title--tour">Tour 3</h3>
+                      <h4 className="text--lead boxes__subtitle">Lagos de Montebello</h4>
+                      <p className='text--body boxes__content'>
+                        Cascadas el Chiflón<br/>
+                      </p>
+                    </li>
+                    <li className="boxes__item boxes__item--tour">
+                      <img src={img04} alt="cañon-del-sumidero" className="boxes__img"/>
+                      <h3 className="text--lead boxes__title--tour">Tour 4</h3>
+                      <h4 className="text--lead boxes__subtitle">Agua Azul</h4>
+                      <p className='text--body boxes__content'>
+                        Misol-Ha<br/>
+                        Zona Arqueológica de Palenque (<span className="text--small">no incluye entrada</span>)
+                      </p>
+                    </li>
+                    <li className="boxes__item boxes__item--tour">
+                      <img src={img05} alt="cañon-del-sumidero" className="boxes__img"/>
+                      <h3 className="text--lead boxes__title--tour">Tour 5</h3>
+                      <h4 className="text--lead boxes__subtitle">Sima de las Cotorras</h4>
+                      <p className='text--body boxes__content'>
+                        El Aguacero
+                      </p>
+                    </li>
+                    <li className="boxes__item boxes__item--tour">
+                      <img src={img06} alt="cañon-del-sumidero" className="boxes__img"/>
+                      <h3 className="text--lead boxes__title--tour">Tour 6</h3>
+                      <h4 className="text--lead boxes__subtitle">Próximamente nuevos tours</h4>
+                      <p className='text--body boxes__content'>
+                        Seguro de Viajero<br/>
+                        Entrada a parques ecoturísticos<br/>
+                        Unidades cómodas
+                      </p>
                     </li>
                   </ul>
                 </Fade>
-                <div className='headercontent__content'>
-                  <h3 className="text--subtitle text-center text-uppercase text-white"><em>How We Deliver <span className="lighted lighted--secondary">High-Quality Leads</span></em></h3>
-                </div>
-                <ul className="boxes">
-                  <li className="boxes__item">
-                    <div className="boxes__icon">
-                      <img src={icon01} alt="icon-01" className="boxes__img"/>
-                      {/* <FaBullhorn size={75}/> */}
-                    </div>
-                    <h4 className="text--lead boxes__title">We Launch Targeted Ads:</h4>
-                    <p className='text--body boxes__content'>Our AI-optimized campaigns ensure your business is seen by homeowners actively seeking your services.</p>
-                  </li>
-                  <li className="boxes__item">
-                    <div className="boxes__icon">
-                      <img src={icon02} alt="icon-01" className="boxes__img"/>
-                      {/* <FaFilter size={75}/> */}
-                    </div>
-                    <h4 className="text--lead boxes__title">AI Qualifies Leads:</h4>
-                    <p className='text--body boxes__content'>Our system engages, nurtures, and qualifies leads via automated text, email, and soon, AI-powered phone calls.</p>
-                  </li>
-                  <li className="boxes__item">
-                    <div className="boxes__icon">
-                      <img src={icon03} alt="icon-01" className="boxes__img"/>
-                      {/* <FaTrophy size={75}/> */}
-                    </div>
-                    <h4 className="text--lead boxes__title">You Close Deals:</h4>
-                    <p className='text--body boxes__content'>We handle everything up to setting appointments, leaving you to focus on what you do best—closing deals and growing your business.</p>
-                  </li>
-                </ul>
                 <div className="about__content text-center">
-                  <a className="btn btn--secondary" target="__blank" href="tel:+17025780098">Get Started</a>
+                  <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">Pregunta por los Tours</a>
                 </div>
               </div>
             </div>

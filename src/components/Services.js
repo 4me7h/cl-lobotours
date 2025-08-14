@@ -86,8 +86,8 @@ export default function Services() {
                     </li>
                     <li className="boxes__item boxes__item--tour">
                       <img src={img06} alt="cañon-del-sumidero" className="boxes__img"/>
-                      <h3 className="text--lead boxes__title--tour">Tour 6 <span className="boxes__price">$650</span></h3>
-                      <h4 className="text--lead boxes__subtitle">Próximamente nuevos tours</h4>
+                      <h3 className="text--lead boxes__title--tour">Próximamente</h3>
+                      <h4 className="text--lead boxes__subtitle">Nuevos Tours</h4>
                       <p className='text--body boxes__content'>
                         Seguro de Viajero<br/>
                         Entrada a parques ecoturísticos<br/>

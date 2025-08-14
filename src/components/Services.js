@@ -42,7 +42,7 @@ export default function Services() {
                   <ul className="boxes boxes--tour mb-5 pb-5">
                     <li className="boxes__item boxes__item--tour">
                       <img src={img01} alt="cañon-del-sumidero" className="boxes__img"/>
-                      <h3 className="text--lead boxes__title--tour">Tour 1</h3>
+                      <h3 className="text--lead boxes__title--tour">Tour 1<br /><span className="boxes__price">$650</span></h3>
                       <h4 className="text--lead boxes__subtitle">Cañón del Sumidero</h4>
                       <p className='text--body boxes__content'>
                         Recorrido en lancha<br/>
@@ -52,7 +52,7 @@ export default function Services() {
                     </li>
                     <li className="boxes__item boxes__item--tour">
                       <img src={img02} alt="cañon-del-sumidero" className="boxes__img"/>
-                      <h3 className="text--lead boxes__title--tour">Tour 2</h3>
+                      <h3 className="text--lead boxes__title--tour">Tour 2<br /><span className="boxes__price">$700</span></h3>
                       <h4 className="text--lead boxes__subtitle">San Cristóbal de las Casas</h4>
                       <p className='text--body boxes__content'>
                         San Juan Chamula<br/>
@@ -61,7 +61,7 @@ export default function Services() {
                     </li>
                     <li className="boxes__item boxes__item--tour">
                       <img src={img03} alt="cañon-del-sumidero" className="boxes__img"/>
-                      <h3 className="text--lead boxes__title--tour">Tour 3</h3>
+                      <h3 className="text--lead boxes__title--tour">Tour 3<br /><span className="boxes__price">$900</span></h3>
                       <h4 className="text--lead boxes__subtitle">Lagos de Montebello</h4>
                       <p className='text--body boxes__content'>
                         Cascadas el Chiflón<br/>
@@ -69,7 +69,7 @@ export default function Services() {
                     </li>
                     <li className="boxes__item boxes__item--tour">
                       <img src={img04} alt="cañon-del-sumidero" className="boxes__img"/>
-                      <h3 className="text--lead boxes__title--tour">Tour 4</h3>
+                      <h3 className="text--lead boxes__title--tour">Tour 4<br /><span className="boxes__price">$800</span></h3>
                       <h4 className="text--lead boxes__subtitle">Agua Azul</h4>
                       <p className='text--body boxes__content'>
                         Misol-Ha<br/>
@@ -78,7 +78,7 @@ export default function Services() {
                     </li>
                     <li className="boxes__item boxes__item--tour">
                       <img src={img05} alt="cañon-del-sumidero" className="boxes__img"/>
-                      <h3 className="text--lead boxes__title--tour">Tour 5</h3>
+                      <h3 className="text--lead boxes__title--tour">Tour 5<br /><span className="boxes__price">$850</span></h3>
                       <h4 className="text--lead boxes__subtitle">Sima de las Cotorras</h4>
                       <p className='text--body boxes__content'>
                         El Aguacero
@@ -86,7 +86,7 @@ export default function Services() {
                     </li>
                     <li className="boxes__item boxes__item--tour">
                       <img src={img06} alt="cañon-del-sumidero" className="boxes__img"/>
-                      <h3 className="text--lead boxes__title--tour">Tour 6</h3>
+                      <h3 className="text--lead boxes__title--tour">Tour 6 <span className="boxes__price">$650</span></h3>
                       <h4 className="text--lead boxes__subtitle">Próximamente nuevos tours</h4>
                       <p className='text--body boxes__content'>
                         Seguro de Viajero<br/>

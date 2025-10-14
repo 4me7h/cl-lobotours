@@ -27,11 +27,11 @@
         &__header {
             position: relative;   
             text-align: center;
-            padding: 4rem 0;
+            padding: 4rem 0 6rem;
             max-width: 940px;
             margin: 0 auto;
             @include media('md') {
-                padding: 10rem 0 14rem;
+                padding: 12rem 0 16rem;
             }
         }
     }

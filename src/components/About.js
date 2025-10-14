@@ -11,9 +11,9 @@ import { FaShieldAlt, FaHandshake, FaClock, FaRoad } from "react-icons/fa";
 // import partners03 from '../images/partners-03.png';
 
 const imagePaths = [  
-  require('../images/img-05.jpg'),
-  require('../images/img-14.jpg'),
-  require('../images/img-02.jpg'),
+  require('../images/img-16.jpg'),
+  require('../images/img-18.jpg'),
+  require('../images/img-20.jpg'),
   require('../images/img-06.jpg'),
   require('../images/img-12.jpg'),
   require('../images/img-13.jpg'),

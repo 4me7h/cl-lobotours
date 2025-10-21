@@ -14,9 +14,12 @@ const imagePaths = [
   require('../images/img-16.jpg'),
   require('../images/img-18.jpg'),
   require('../images/img-20.jpg'),
-  require('../images/img-06.jpg'),
-  require('../images/img-21.jpg'),
+  require('../images/img-12.jpg'),
+  require('../images/img-22.jpg'),
   require('../images/img-13.jpg'),
+  require('../images/img-01.jpg'),
+  require('../images/img-05.jpg'),
+  require('../images/img-06.jpg'),
 ];
 
 export default function About() {

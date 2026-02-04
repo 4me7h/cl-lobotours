@@ -5,7 +5,7 @@ import Row from "react-bootstrap/esm/Row"
 // import { useState } from "react";
 import {Link} from 'react-scroll';
 
-import logo from '../images/logo-halloween.png';
+import logo from '../images/logo.png';
 
 const Navbar = () => {
 

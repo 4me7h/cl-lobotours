@@ -6,11 +6,11 @@ import { Zoom } from 'react-awesome-reveal';
 import { useParallax } from 'react-scroll-parallax';
 import { useState, useEffect } from 'react';
 
-import imgBackground01 from '../images/img-halloween-01.jpg';
-import imgBackground02 from '../images/img-halloween-02.jpg';
-import imgBackground03 from '../images/img-halloween-03.jpg';
-import imgBackground04 from '../images/img-destino-04.jpg';
-import imgBackground05 from '../images/img-destino-05.jpg';
+import imgBackground01 from '../images/img-feb-01.jpg';
+import imgBackground02 from '../images/img-feb-02.jpg';
+import imgBackground03 from '../images/img-feb-03.jpg';
+import imgBackground04 from '../images/img-destino-03.jpg';
+import imgBackground05 from '../images/img-destino-01.jpg';
 
 const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -38,8 +38,8 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Zoom triggerOnce cascade>
-                                    <h4 className="text--lead text-white">Viaja al corazón de las tradiciones. Seguro, cómodo y puntual.</h4>
-                                    <h1 className="text--title text-white">Descubre los misterios de esta temporada con <em>Lobo Tours</em>
+                                    <h4 className="text--lead text-white">Viaja al corazón de la conexión. Seguro, cómodo y puntual.</h4>
+                                    <h1 className="text--title text-white">Descubre la magia de los buenos momentos esta temporada con <em>Lobo Tours</em>
                                     </h1>
                                     <h4 className="text--lead text-white mb-5">Desde Tuxtla Gutiérrez, Chiapas.</h4>
                                     <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">Solicita tus boletos aquí</a>

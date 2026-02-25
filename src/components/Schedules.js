@@ -180,7 +180,7 @@ const Schedules = () => {
                                         <div className="accordion__content__column">
                                             <ul className="accordion__content__list">
                                                 <li className="accordion__content__item"><span className="accordion__content__subtitle">🚐 Próximas Salidas</span></li>
-                                                <li className="accordion__content__item">📅 Días: <span className="accordion__content__days">Lunes, Martes, Miércoles, Juéves, Viernes y Sábados</span></li>
+                                                <li className="accordion__content__item">📅 Días: <span className="accordion__content__days">Martes, Juéves y Sábados</span></li>
                                                 <li className="accordion__content__item">⏰ Hora: <span className='accordion__content__time'>9:00 am</span></li>
                                                 <li className="accordion__content__item">💵 Precio: <span className="accordion__content__price">$1,600</span></li> 
                                             </ul>

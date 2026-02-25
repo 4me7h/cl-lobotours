@@ -40,6 +40,16 @@ export default function Services() {
                       </div>
                   </div>            
                   <ul className="boxes boxes--tour mb-5 pb-5">
+                  <li className="boxes__item boxes__item--tour">
+                      <img src={img06} alt="cañon-del-sumidero" className="boxes__img"/>
+                      <h3 className="text--lead boxes__title--tour">Sábados de Semana Santa<br /><span className="boxes__price">$600</span></h3>
+                      <h4 className="text--lead boxes__subtitle">Puerto Arista</h4>
+                      <p className='text--body boxes__content'>
+                        Salida días sábados 4am<br/>
+                        Regreso mismo día 10 pm<br/>
+                        Unidades cómodas
+                      </p>
+                    </li>
                     <li className="boxes__item boxes__item--tour">
                       <img src={img01} alt="cañon-del-sumidero" className="boxes__img"/>
                       <h3 className="text--lead boxes__title--tour">Tour 1<br /><span className="boxes__price">$650</span></h3>
@@ -84,16 +94,7 @@ export default function Services() {
                         El Aguacero
                       </p>
                     </li>
-                    <li className="boxes__item boxes__item--tour">
-                      <img src={img06} alt="cañon-del-sumidero" className="boxes__img"/>
-                      <h3 className="text--lead boxes__title--tour">Próximamente</h3>
-                      <h4 className="text--lead boxes__subtitle">Nuevos Tours</h4>
-                      <p className='text--body boxes__content'>
-                        Seguro de Viajero<br/>
-                        Entrada a parques ecoturísticos<br/>
-                        Unidades cómodas
-                      </p>
-                    </li>
+                    
                   </ul>
                 </Fade>
                 <div className="about__content text-center">

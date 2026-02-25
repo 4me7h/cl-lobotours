@@ -8,7 +8,7 @@ import img02 from '../images/img-tour-02.jpg';
 import img03 from '../images/img-tour-03.jpg';
 import img04 from '../images/img-tour-04.jpg';
 import img05 from '../images/img-tour-05.jpg';
-import img06 from '../images/img-tour-06.jpg';
+import img06 from '../images/img-destino-13.jpg';
 
 
 import { Fade } from 'react-awesome-reveal';
